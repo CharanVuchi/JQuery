@@ -1,0 +1,12 @@
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  
+  .nav:hover {
+    color: #1b1919;
+  }

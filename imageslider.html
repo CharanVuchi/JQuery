@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="imageslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+</head>
+<body>
+    <a href="photoes/dandelion-600-300.jpg" data-lightbox="nature">
+        <img src="photoes/dandelion-600-300.jpg" alt="image1">
+    </a>
+    <a href="photoes/desert-sunrise-600-300.jpg" data-lightbox="nature">
+        <img src="photoes/desert-sunrise-600-300.jpg" alt="image2">
+    </a>
+    <a href="photoes/golden-wheat-field-600-300.jpg" data-lightbox="nature">
+        <img src="photoes/golden-wheat-field-600-300.jpg"alt=image3>
+    </a>
+    <a href="photoes/ivy-on-house-in-autumn-600-300.jpg" data-lightbox="nature">
+        <img src="photoes/ivy-on-house-in-autumn-600-300.jpg"alt="image4">
+    </a>
+    <a href="photoes/night-in-the-city-600-300.jpg" data-lightbox="nature">
+        <img src="photoes/night-in-the-city-600-300.jpg" alt="image5">
+    </a>
+    <a href="photoes/sea-side-600-300.jpg" data-lightbox="nature">
+        <img src="photoes/sea-side-600-300.jpg" alt="image6">
+    </a>
+
+    <script>
+        $(document).ready(function(){
+            lightbox.option({
+                'resizeDuration': 200,
+                'wrapAround':false,
+            });
+        });
+    </script>
+</body>
+</html>
